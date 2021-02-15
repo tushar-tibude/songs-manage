@@ -11,7 +11,7 @@ In the project directory, you can run:
 This will install all dependencies related to this app.
 
 ### `npm start`
- This will run this app in development mode and automaticaly app will start on your default browser on` `localhost:3000`
+ This will run this app in development mode and automaticaly app will start on your default browser on `localhost:3000`
 
 ### `npm run build`
 
