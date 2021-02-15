@@ -1,0 +1,31 @@
+.playlist {
+    padding: 10px;
+}
+
+.file-input {
+    float: left;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.search-bar{
+    max-width: 25rem;
+}
+
+.buttons-header {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+}
+
+button.btn.btn-primary {
+    margin: 0px 10px 0 0;
+}
+button.btn.btn-light {
+    height: 25px;
+    line-height: 1;
+    width: 45px;
+    padding: 1px;
+    font-size: 13px;
+}
