@@ -91,12 +91,17 @@ export default class PlayList extends React.Component {
         ),
       },
       {
+        Header: "Index",
+        accessor: "index",
+      },
+      {
         Header: "ID",
         accessor: "id",
       },
       {
         Header: "Title",
         accessor: "title",
+        width:200,
       },
       {
         Header: "danceability",
@@ -163,7 +168,7 @@ export default class PlayList extends React.Component {
                 exportCSVFile(
                   Object.keys(this.state.list[0]),
                   this.state.list,
-                  "plalist"
+                  "playlist"
                 )
               }
               disabled={this.state.list.length === 0}
